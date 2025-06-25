@@ -7,7 +7,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # 보안 관련 설정
 SECRET_KEY = 'django-insecure-()3*m-_g_qv1&-hd%#!85-9=4sha)7ew!v4k-o=6sazvwo*6gp'
 DEBUG = True
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['my-django-app-1tkp.onrender.com', 'localhost', '127.0.0.1']
 
 # 앱 등록
 INSTALLED_APPS = [
