@@ -84,3 +84,5 @@ STATICFILES_DIRS = [
 
 # 기본 PK 필드 타입
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+ALLOWED_HOSTS = ['.onrender.com']
